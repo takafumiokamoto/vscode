@@ -11,6 +11,7 @@
   "vim.incsearch": true,
   "vim.hlsearch": true,
   "vim.useSystemClipboard": false,
+  "vim.easymotion": true,
   "vim.handleKeys": {
     "<C-d>": true,
     "<C-w>": false,
@@ -77,6 +78,14 @@
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": ["bookmarks.toggle"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["bookmarks.list"]
     }
   ],
   "vim.visualModeKeyBindings": [
