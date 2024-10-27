@@ -1,6 +1,7 @@
 {
   "editor.minimap.enabled": false,
   "window.menuBarVisibility": "compact",
+  "workbench.activityBar.location": "bottom",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Palenight Operator",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
