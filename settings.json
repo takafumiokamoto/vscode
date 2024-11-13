@@ -63,19 +63,18 @@
     { "before": ["leader", "q"], "commands": [":q!"] },
     { "before": ["leader", "x"], "commands": [":x!"] },
     {
-      "before": ["[", "d"],
+      "before": ["leader", "<S-p>"],
       "commands": ["editor.action.marker.prev"]
     },
     {
-      "before": ["]", "d"],
+      "before": ["leader", "p"],
       "commands": ["editor.action.marker.next"]
     },
     {
       "before": ["<leader>", "c", "a"],
       "commands": ["editor.action.quickFix"]
     },
-    { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
-    { "before": ["leader", "p"], "commands": ["editor.action.formatDocument"] },
+    { "before": ["leader", "f"], "commands": ["editor.action.formatDocument"] },
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
